@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — FixMine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080c18;
+      --bg2: #0d1428;
+      --panel: #111827;
+      --border: #1e2d4a;
+      --cyan: #00d4ff;
+      --cyan-dim: rgba(0, 212, 255, 0.15);
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --white: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(13, 20, 40, 0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--cyan);
+      text-decoration: none;
+    }
+    .back-btn {
+      background: var(--cyan-dim);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      margin-left: auto;
+      transition: background 0.2s;
+    }
+    .back-btn:hover { background: rgba(0,212,255,0.25); }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 48px;
+    }
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--cyan);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: '';
+      width: 3px;
+      height: 16px;
+      background: var(--cyan);
+      border-radius: 2px;
+      display: inline-block;
+    }
+    p, li {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text);
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      background: var(--cyan-dim);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="logo">⚡ FixMine</span>
+    <a href="/" class="back-btn">← Kembali ke App</a>
+  </header>
+
+  <main>
+    <span class="badge">Legal Document</span>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Terakhir diperbarui: Mei 2026 · Berlaku untuk fixmine.app dan Android App</p>
+
+    <div class="section">
+      <h2>Pendahuluan</h2>
+      <p>FixMine ("kami", "aplikasi") menghormati privasi Anda. Kebijakan ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan layanan AI PC Problem Solver kami di fixmine.app maupun aplikasi Android kami.</p>
+    </div>
+
+    <div class="section">
+      <h2>Data yang Kami Kumpulkan</h2>
+      <ul>
+        <li><strong>Data Akun:</strong> Alamat email saat registrasi</li>
+        <li><strong>Data Penggunaan:</strong> Pertanyaan/deskripsi masalah PC yang Anda kirim ke AI</li>
+        <li><strong>Data Teknis:</strong> Jenis browser, sistem operasi, alamat IP</li>
+        <li><strong>Data Pembayaran:</strong> Diproses melalui DOKU — kami tidak menyimpan data kartu/rekening</li>
+        <li><strong>Preferensi:</strong> Bahasa, pengaturan notifikasi</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Cara Kami Menggunakan Data</h2>
+      <ul>
+        <li>Menjalankan layanan diagnosis AI PC secara real-time</li>
+        <li>Mengelola akun dan status langganan Pro</li>
+        <li>Meningkatkan akurasi model AI kami</li>
+        <li>Mengirim notifikasi penting terkait layanan (dengan izin)</li>
+        <li>Memproses pembayaran melalui DOKU Payment Gateway</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Sumber Pihak Ketiga</h2>
+      <ul>
+        <li><strong>DOKU Payment Gateway</strong> — pemrosesan pembayaran aman</li>
+        <li><strong>Anthropic / OpenAI API</strong> — model AI untuk diagnosis PC</li>
+        <li><strong>Vercel</strong> — hosting dan infrastruktur</li>
+        <li><strong>Google Analytics</strong> (opsional) — analitik penggunaan anonim</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Berbagi Data</h2>
+      <p>Kami <strong>tidak menjual</strong> data pribadi Anda kepada siapapun. Data hanya dibagikan kepada penyedia layanan teknis yang diperlukan untuk operasional (tercantum di atas), dengan perjanjian kerahasiaan yang ketat.</p>
+    </div>
+
+    <div class="section">
+      <h2>Keamanan Data</h2>
+      <p>Semua komunikasi dienkripsi menggunakan HTTPS/TLS. Data akun disimpan dengan enkripsi standar industri. Akses ke data dibatasi hanya kepada personil yang membutuhkan.</p>
+    </div>
+
+    <div class="section">
+      <h2>Retensi Data</h2>
+      <p>Data akun disimpan selama akun aktif. Data percakapan AI disimpan maksimal 90 hari untuk peningkatan layanan. Setelah penghapusan akun, semua data dihapus dalam 30 hari.</p>
+    </div>
+
+    <div class="section">
+      <h2>Cookie</h2>
+      <p>Kami menggunakan cookie esensial untuk autentikasi sesi dan preferensi pengguna. Tidak ada cookie iklan pihak ketiga. Anda dapat menonaktifkan cookie di pengaturan browser, namun beberapa fitur mungkin tidak berfungsi.</p>
+    </div>
+
+    <div class="section">
+      <h2>Hak Anda</h2>
+      <ul>
+        <li>Mengakses data pribadi yang kami miliki tentang Anda</li>
+        <li>Memperbaiki data yang tidak akurat</li>
+        <li>Menghapus akun dan semua data terkait</li>
+        <li>Mengunduh salinan data Anda</li>
+      </ul>
+      <p style="margin-top:12px">Untuk menghapus akun: <a href="/delete-account.html">klik di sini</a></p>
+    </div>
+
+    <div class="section">
+      <h2>Disclaimer Teknis</h2>
+      <p>FixMine menyediakan saran perbaikan PC berbasis AI untuk tujuan informasi saja. Kami tidak bertanggung jawab atas kerusakan hardware/software yang timbul dari mengikuti saran AI. Selalu backup data Anda sebelum melakukan perubahan sistem.</p>
+    </div>
+
+    <div class="section">
+      <h2>Perubahan Kebijakan</h2>
+      <p>Kami dapat memperbarui kebijakan ini sewaktu-waktu. Perubahan material akan diberitahukan melalui email atau notifikasi di aplikasi. Penggunaan berkelanjutan setelah perubahan merupakan persetujuan Anda.</p>
+    </div>
+
+    <div class="section">
+      <h2>Kontak</h2>
+      <p>Untuk pertanyaan privasi, hubungi kami di:<br>
+      Email: <a href="mailto:support@fixmine.app">support@fixmine.app</a><br>
+      Website: <a href="https://fixmine.app">fixmine.app</a></p>
+    </div>
+  </main>
+</body>
+</html>

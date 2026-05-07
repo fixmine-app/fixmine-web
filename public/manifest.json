@@ -1,0 +1,25 @@
+{
+  "name": "FixMine — AI PC Problem Solver",
+  "short_name": "FixMine",
+  "description": "AI yang mendiagnosa dan memperbaiki masalah PC dalam detik. Gratis 3x per bulan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c18",
+  "theme_color": "#00d4ff",
+  "orientation": "portrait",
+  "lang": "id",
+  "scope": "/",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "categories": ["utilities", "productivity"],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=app.fixmine.twa",
+      "id": "app.fixmine.twa"
+    }
+  ]
+}

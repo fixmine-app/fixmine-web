@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hapus Akun — FixMine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080c18;
+      --bg2: #0d1428;
+      --panel: #111827;
+      --border: #1e2d4a;
+      --cyan: #00d4ff;
+      --cyan-dim: rgba(0, 212, 255, 0.15);
+      --red: #ef4444;
+      --red-dim: rgba(239, 68, 68, 0.15);
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --white: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(13, 20, 40, 0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+    .logo { font-size: 20px; font-weight: 700; color: var(--cyan); }
+    .back-btn {
+      background: var(--cyan-dim);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      margin-left: auto;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    .warning-banner {
+      background: var(--red-dim);
+      border: 1px solid var(--red);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .warning-icon { font-size: 28px; flex-shrink: 0; }
+    .warning-text h2 { color: var(--red); font-size: 16px; margin-bottom: 6px; }
+    .warning-text p { font-size: 13px; color: var(--text); line-height: 1.6; }
+    h1 { font-size: 28px; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+    .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 36px; }
+    .steps { margin-bottom: 32px; }
+    .step {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .step-num {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--cyan-dim);
+      border: 2px solid var(--cyan);
+      color: var(--cyan);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .step-content h3 { font-size: 15px; font-weight: 600; color: var(--white); margin-bottom: 6px; }
+    .step-content p { font-size: 13px; color: var(--text); line-height: 1.6; }
+    .info-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .info-box h3 { font-size: 14px; font-weight: 600; color: var(--cyan); margin-bottom: 12px; }
+    .info-box ul { padding-left: 18px; }
+    .info-box li { font-size: 13px; color: var(--text); line-height: 1.8; }
+    a { color: var(--cyan); }
+    .contact-btn {
+      display: inline-block;
+      background: var(--red-dim);
+      border: 1px solid var(--red);
+      color: var(--red);
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="logo">⚡ FixMine</span>
+    <a href="/privacy-policy.html" class="back-btn">Privacy Policy</a>
+  </header>
+
+  <main>
+    <h1>Hapus Akun</h1>
+    <p class="subtitle">Permintaan penghapusan akun FixMine Anda</p>
+
+    <div class="warning-banner">
+      <div class="warning-icon">⚠️</div>
+      <div class="warning-text">
+        <h2>Tindakan Tidak Dapat Dibatalkan</h2>
+        <p>Penghapusan akun bersifat permanen. Semua data Anda termasuk riwayat diagnosis, status Pro, dan preferensi akan dihapus sepenuhnya dan tidak dapat dipulihkan.</p>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Batalkan Langganan Pro (jika aktif)</h3>
+          <p>Sebelum menghapus akun, pastikan langganan Pro Anda sudah dibatalkan untuk menghindari tagihan lanjutan. Masuk ke akun → Pengaturan → Kelola Langganan.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Kirim Permintaan Penghapusan</h3>
+          <p>Kirim email ke <a href="mailto:support@fixmine.app">support@fixmine.app</a> dengan subjek <strong>"Hapus Akun"</strong> dari alamat email yang terdaftar. Sertakan nama lengkap Anda untuk verifikasi.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Konfirmasi dalam 3 Hari Kerja</h3>
+          <p>Tim kami akan mengirim email konfirmasi dalam 3 hari kerja. Setelah konfirmasi, semua data akan dihapus permanen dalam 30 hari.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h3>Data yang Akan Dihapus</h3>
+      <ul>
+        <li>Profil akun dan alamat email</li>
+        <li>Riwayat semua sesi diagnosis AI</li>
+        <li>Status dan riwayat langganan Pro</li>
+        <li>Data usage dan preferensi</li>
+        <li>Semua data yang terkait dengan akun Anda</li>
+      </ul>
+    </div>
+
+    <p style="font-size:14px; color: var(--muted); margin-bottom: 20px;">
+      Punya pertanyaan? Baca <a href="/privacy-policy.html">Privacy Policy</a> kami atau hubungi support.
+    </p>
+
+    <a href="mailto:support@fixmine.app?subject=Hapus%20Akun&body=Halo%20FixMine%2C%0A%0ASaya%20ingin%20menghapus%20akun%20saya.%0A%0ANama%3A%20%5BNama%20Anda%5D%0AEmail%20Terdaftar%3A%20%5BEmail%20Anda%5D%0A%0ATerima%20kasih." class="contact-btn">
+      📧 Kirim Permintaan Hapus Akun
+    </a>
+  </main>
+</body>
+</html>
