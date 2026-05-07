@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "app.fixmine.twa",
+      "package_name": "fixmine.app",
       "sha256_cert_fingerprints": [
-        "REPLACE_WITH_SHA256_FROM_PLAY_CONSOLE_STEP_2"
+        "1E:05:9D:1C:06:91:CC:92:8F:8A:FF:09:E1:8B:C7:C2:8F:A4:43:C0:63:01:D5:ED:DA:86:83:4A:6D:76:E1:68"
       ]
     }
   }
